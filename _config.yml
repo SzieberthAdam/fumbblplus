@@ -2,7 +2,7 @@
 title: "FUMBBLPlus"
 short_title: "FUMBBLPlus"
 description: "Community driven supplemental site of FUMBBL.COM"
-baseurl: "/fumbblplus"
+baseurl: ""
 
 # Globals
 timezone: Europe/Stockholm
