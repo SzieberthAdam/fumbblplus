@@ -5,6 +5,11 @@ title: "Issues"
 
 # Issues
 
+**Attention!**
+_Project_ related issues should be reported the way described in the _Project's own Issues_ page.
+This place is for reporting issues of the main site only!
+
+
 Known issues are tracked on the [FUMBBLPlus Issues] page.
 This page should be checked whether a bug is known before reporting.
 
