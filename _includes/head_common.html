@@ -25,6 +25,13 @@
       if (!value["url"].startsWith("//")){
       $.getJSON(value["url"] + '/sublinks.json', function(data) {
         // HOWTO extend array: http://stackoverflow.com/a/1374131/2334951
+        var index, len, element;
+        for (index = 0, len = data.length; index < len; ++index) {
+          element = data[index];
+          if (element.length > 1 && !element[1].startsWith("//")){
+            element[1] = baseurl + element[1];
+          };
+        }
         value["sublinks"].push.apply(value["sublinks"], data);
         });
       };

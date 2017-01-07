@@ -14,12 +14,17 @@ Knowing what [Github Pages] is is essential for joining.
 You should fork the [FUMBBLPlus Repository] to your own account first.
 This is done by going to th [FUMBBLPlus Repository] page and clicking on the `Fork` button in the top right.
 You should have your own fork of FUMBBLPlus within moments.
+When done do the following:, click on  and do the following:
+
+* In the _Settings_ tab, rename your fork's repository name to&emsp;**fumbblplus**&emsp;.
+* In the _Settings_ tab again, below in the _GitHub Pages_ tab, set _Source_ to the _master branch_ and _Save_.
+
 
 ## Clone Your Fork Locally
 
 Now you have to clone your fork locally.
-Click on the `Clone or Download` on your fork's page then click on `Use HTTPS` and copy the URL provided.
-It should be like `https://github.com/<your_user_name>/fumbblplus.github.io.git`.
+In the _Code_ tab, click on the `Clone or Download` on your fork's page then click on `Use HTTPS` and copy the URL provided.
+It should be like `https://github.com/<your_user_name>/fumbblplus.git`.
 
 Both the original and the forked pages are [Git] repositories, so you have to have [Git installed][Installing Git] to deal with them.
 On Linux and OSX, open a Terminal.
@@ -27,8 +32,9 @@ On Windows, the [Git] installation usually comes with a separate command line wh
 
 ```
 cd <my_prefered_main_directory>
-git clone --recursive -j8 https://github.com/<your_user_name>/fumbblplus.github.io.git
+git clone --recursive -j8 https://github.com/<your_user_name>/fumbblplus.git
 cd fumbblplus.github.io
+git remote add upstream https://github.com/FUMBBLPlus/fumbblplus.github.io.git
 ```
 
 This command will clone the forked [FUMBBLPlus Repository]&#8203; [with all of its submodules][How to git clone with submodules].
@@ -169,6 +175,15 @@ Then create a new pull request with a small text what it is all about.
 The [Head Coach] will be notified.
 He will be able to test and accept your Project.
 
+
+## Special Cases
+
+### [FUMBBLPlus Repository] Have Been Diverged From the Fork
+
+```
+git fetch upstream
+git rebase upstream/master
+```
 
 
 
