@@ -1,0 +1,146 @@
+/* fixes misaligned headers in Firefox (Chrome?) */
+/* http://stackoverflow.com/a/19069129/2334951 */
+table.dataTable,
+table.dataTable th,
+table.dataTable td {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+table {
+  background: #e6ddc7;
+  font-size: 10pt;
+  border: solid 2px black;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+  word-wrap:break-word;
+}
+
+table tbody tr {
+    background-color: #d6cdb7;
+}
+
+table td.name {
+  text-align: left;
+}
+
+table th {
+  background: #000000;
+  color: white;
+  font: inherit;
+  text-align: center;
+}
+
+table th a {
+  color: white;
+}
+
+table th a:hover {
+  color: white;
+}
+
+table tr {
+  text-align: left;
+}
+
+table.dataTable.compact thead th,
+table.dataTable.compact thead td{
+  /* padding:4px 10px 4px 10px; */
+  padding: 4px;
+  /* this makes each column wdht 8+w pixels */
+}
+
+table.dataTable.display tbody tr:hover>.sorting_1,
+table.dataTable.display tbody tr:hover>.sorting_2,
+table.dataTable.display tbody tr:hover>.sorting_3,
+table.dataTable.order-column.hover tbody tr:hover>.sorting_1,
+table.dataTable.order-column.hover tbody tr:hover>.sorting_2,
+table.dataTable.order-column.hover tbody tr:hover>.sorting_3
+{
+    background-color: transparent;
+}
+
+table.dataTable.display tbody tr.odd>.sorting_1,
+table.dataTable.display tbody tr.odd>.sorting_2,
+table.dataTable.display tbody tr.odd>.sorting_3,
+table.dataTable.order-column.stripe tbody tr.odd>.sorting_1,
+table.dataTable.order-column.stripe tbody tr.odd>.sorting_2,
+table.dataTable.order-column.stripe tbody tr.odd>.sorting_3
+{
+    background-color: transparent;
+}
+
+table.dataTable.display tbody tr.even>.sorting_1,
+table.dataTable.display tbody tr.even>.sorting_2,
+table.dataTable.display tbody tr.even>.sorting_3,
+table.dataTable.order-column.stripe tbody tr.even>.sorting_1,
+table.dataTable.order-column.stripe tbody tr.even>.sorting_2,
+table.dataTable.order-column.stripe tbody tr.even>.sorting_3
+{
+    background-color: transparent;
+}
+
+table.dataTable.display tbody tr>.sorting_1,
+table.dataTable.display tbody tr>.sorting_2,
+table.dataTable.display tbody tr>.sorting_3
+table.dataTable.order-column tbody tr>.sorting_1,
+table.dataTable.order-column tbody tr>.sorting_2,
+table.dataTable.order-column tbody tr>.sorting_3 {
+    background-color: transparent;
+}
+
+tr:nth-child(even),
+table.dataTable.stripe tbody tr.even,
+table.dataTable.display tbody tr.even {
+    background-color: #d6cdb7;
+}
+
+tr:nth-child(odd),
+table.dataTable.stripe tbody tr.odd,
+table.dataTable.display tbody tr.odd {
+    background-color: #e6ddc7;
+}
+
+thead th.dt-left, thead th.dt-center {
+  vertical-align: middle;
+}
+
+tr.even,
+table.draw tr:nth-child(even) {
+  background: #d6cdb7;
+}
+
+tr.odd,
+table.draw tr:nth-child(odd) {
+  background: #e6ddc7;
+}
+
+.dataTables_length {
+  padding-bottom: 5;
+}
+.dataTables_length:after {
+  content: "\a0\a0\a0\a0";
+}
+
+
+
+.dataTables_wrapper .dataTables_processing {
+  position: fixed;
+  margin: auto;
+  margin-left: -100px;
+  width: 200px;
+  height: 50px;
+  padding: 0px;
+  padding-top: 15px;
+  background: white;
+  border: 2px solid black;
+  z-index: 1000;
+}
+
+.highlighted_select:enabled {
+  color: #FF0000;
+}
+.highlighted_select:disabled {
+  color: #FF6D6D;
+}

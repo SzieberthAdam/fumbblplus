@@ -1,0 +1,10 @@
+#fumbbl_tooltip {
+  font-family: arial, sans-serif;
+  display: none;
+  padding: 5px;
+  position: absolute;
+  border: solid black 1px;
+  background: yellow;
+  text-align: center;
+  z-index: 1000;
+}

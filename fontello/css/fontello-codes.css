@@ -1,0 +1,8 @@
+
+.icon-medal:before { content: '\e800'; } /* '' */
+.icon-trophy:before { content: '\e801'; } /* '' */
+.icon-smallmedal:before { content: '\e802'; } /* '' */
+.icon-thumbs-up:before { content: '\e803'; } /* '' */
+.icon-lightbulb:before { content: '\e804'; } /* '' */
+.icon-move-up:before { content: '\f102'; } /* '' */
+.icon-move-down:before { content: '\f103'; } /* '' */

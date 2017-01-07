@@ -1,0 +1,335 @@
+.wikitext {
+  width: 900px;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 2px;
+  text-align: left;
+}
+
+.wikitext a {
+  color: #3333cc;
+  text-decoration: none;
+}
+
+.wikitext a:hover {
+  text-decoration: underline;
+  color: #660099;
+}
+
+.wikitext h2 {
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  font-size: 200%;
+  border-bottom: solid black 1px;
+}
+
+.wikitext h3 {
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.wikitext h4 {
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 110%;
+  margin-bottom: 0px;
+  margin-left: 3px;
+}
+
+.wikitext .leftcolumn {
+  float: left;
+  width: 49%;
+}
+
+.wikitext .rightcolumn {
+  float: right;
+  width: 49%;
+}
+
+.wikitext .leftcolumn p {
+  margin-top: 0px;
+}
+
+.wikitext .rightcolumn p {
+  margin-top: 0px;
+}
+
+.wikitext .bottom {
+  text-align: right;
+  border-top: solid black 1px;
+}
+
+.wiki_test {
+	font-size: 10pt;
+	border: solid black 1px;
+	padding: 5px;
+	display: block;
+	margin: 3px;
+	background-image: url(http://fumbbl.com/themes/v3/images/grass80.jpg);
+	background-repeat: repeat;
+	color: white;
+}
+
+.wiki_test:first-line {
+	text-align: center;
+	font-size: 12pt;
+	font-weight: bold;
+	width: 100%;
+	display: block;
+	background: white;
+}
+
+.wiki_lineup {
+  border: solid black 2px;
+  margin: 3px;
+  background: lightgray;
+}
+
+.wiki_lineupheader {
+  text-align: center;
+  font-size: 16pt;
+  background: gray;
+  border-bottom: solid black 1px;
+}
+
+.wiki_lineup .leftcolumn {
+  width: 34%;
+}
+
+.wiki_lineup .rightcolumn {
+  width: 64%;
+}
+
+.wiki_center {
+	text-align: center;
+}
+
+.wikiodd {
+	background: #d0e0d0;
+}
+
+.wikieven {
+	background: #e0f0e0;
+}
+
+
+/********************* TNT Stuff *************************/
+
+.tnt_wikitext {
+  width: 580px;
+  background: #e0f0e0;
+  border: solid black 2px;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 2px;
+  text-align: left;
+}
+
+.tnt_wikitext .leftcolumn {
+  float: left;
+  width: 49%;
+}
+
+.tnt_wikitext .rightcolumn {
+  float: right;
+  width: 49%;
+}
+
+.tnt_wikitext a {
+  color: #333366;
+  text-decoration: none;
+}
+
+.tnt_wikitext a:hover {
+  text-decoration: underline;
+  color: #660099;
+}
+
+.tnt_wikitext h2 {
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  font-size: 200%;
+  border-bottom: solid black 1px;
+}
+
+.tnt_wikitext h3 {
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.tnt_wikitext h4 {
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 110%;
+  margin-bottom: 0px;
+  margin-left: 3px;
+}
+
+/* simple class for creating borderless tables */
+.wiki_noborders table, .wiki_noborders tr, .wiki_noborders td{
+ border:none;
+}
+
+/* fix links in IE (visited must appear before hover) */
+.wiki_tnt a:visited, .wiki_tnt_footer a:visited {
+ color: #333366;
+   text-decoration: none;
+}
+.wiki_tnt a:hover,  .wiki_tnt_footer a:hover {
+ color: #660099;
+ text-decoration: underline;
+}
+
+
+
+/* orange headers */
+.wiki_tnt h1, .wiki_tnt h2, .wiki_tnt h3 , .wiki_tnt h4 {
+ color:#DD5B0E;
+}
+.wiki_tnt h4 {font-size:12pt; }
+.wiki_tnt h2 {
+ border-width:2px;
+ border-color: #DD5B0E;
+}
+
+/* orange horizontal rules */
+.wiki_tnt hr {
+ background-color: #DD5B0E;
+ border-color:  #DD5B0E;
+ border-style: solid none none none;
+ border-width: 2px;
+ height: 2px;
+}
+
+
+/* TNT home page header */
+.wiki_tnt_banner {
+ margin-top:12px;
+ margin-bottom:12px;
+
+ /* fixes tnt home-page banner in Firefox (page is wider).
+    must be background colour of banner, maybe this isn't a good idea... */
+ background:#5A725A;
+}
+
+
+/* page header with tnt logo */
+.wiki_tnt_header {
+ background: #5A725A url(/files/TNT/images/tnt-logo-small.gif) no-repeat top right;              /********** IMAGE *********/
+ border-bottom: 1px solid #5A725A; /* fixes IE bug caused by empty paragraphs */
+ margin-top:12px;
+ margin-bottom:12px;
+}
+.wiki_tnt_header h1, .wiki_tnt_header h2, .wiki_tnt_header h3 {
+ color:white;
+ padding:6px 90px 0px 10px;
+
+ height:1%; /* required for filter effect */
+ filter: glow(color=#000000, strength=2); /* IE only. gives text a black border */
+}
+.wiki_tnt_header h2 {
+ border-style:none;
+ font-size: 18pt;
+ font-weight:bold;
+}
+
+
+
+/* custom bullet points */
+.wiki_tnt li {
+ padding-left: 0px;
+ margin-top:0.4em;
+}
+.wiki_tnt_bullets li {
+ list-style-image: url(/files/TNT/images/tnt-explosion-bullet.gif);                         /********** IMAGE *********/
+ padding-left: 0px;
+ margin-top:0.6em;
+}
+
+/* highlight section top */
+.wiki_tnt_highlight {
+ height:1%; /* fixes IE bug where header disappears behind background */
+ background: url(/files/TNT/images/tnt-section-bg.jpg) no-repeat top left;                  /********** IMAGE *********/
+}
+/* highlight column top */
+.leftcolumn .wiki_tnt_highlight, .rightcolumn .wiki_tnt_highlight {
+ height:auto;
+ background: url(/files/TNT/images/tnt-column-bg.jpg) repeat-x top;                        /********** IMAGE *********/
+}
+/* move headers a little to the right */
+.wiki_tnt_highlight h1, .wiki_tnt_highlight h2, .wiki_tnt_highlight h3, .wiki_tnt_highlight h4 {
+ padding-left:4px;
+ padding-top:1px;
+ margin-left:0px;
+}
+/* an empty class to ensure same layout as highlighted columns */
+.wiki_tnt_plain {}
+/* css blocks spam empty paragraphs. This saves a bit of space */
+.leftcolumn .wiki_tnt_highlight ul, .leftcolumn .wiki_tnt_plain ul, 
+.rightcolumn .wiki_tnt_highlight ul, .rightcolumn .wiki_tnt_plain ul {
+ margin-bottom:0px;
+}
+
+
+
+/*  Floating boxes: */
+.wiki_tnt_box_left {
+ float:left;
+ margin-right:1em;
+}
+.wiki_tnt_box_right {
+ float:right;
+ margin-left:1em;
+}
+.wiki_tnt_box_right, .wiki_tnt_box_left {
+ padding:0.6em 1em;
+ border: 2px solid #C7D8C7;
+ background: url(/files/TNT/images/tnt-column-bg.jpg) repeat-x top;                         /********** IMAGE *********/
+}
+
+
+/* tnt home page footer. muted colours. smaller font */
+.wiki_tnt_footer {
+ /* background: #C7D8C7; */
+ /* border-bottom: 1px solid #5A725A; */
+ border-top: 1px solid #7C927C;
+ text-align:center;
+ 
+ padding-top:1.5em;
+ margin-top:1.5em;
+}
+.wiki_tnt_footer, .wiki_tnt_footer p, .wiki_tnt_footer h4, .wiki_tnt_footer ul {
+ font-size:8pt;
+ color:#5A725A;
+}
+.wiki_tnt_footer a, .wiki_tnt_footer a:visited, .wiki_tnt_footer a:hover {
+ font-size:8pt;
+}
+.wiki_tnt_footer .leftcolumn, .wiki_tnt_footer .rightcolumn {
+ text-align:left;
+}
+.wiki_tnt_footer li {
+ padding-left:0px;
+ margin-top:0.2em;
+}
+.wiki_tnt_footer ul {
+ margin-top:0px; 
+ margin-bottom:0px; 
+}
+
+.tnt_wikitext .bottom {
+  text-align: right;
+  border-top: solid black 1px;
+}
+
+.wikitext table {
+	border-collapse: collapse;
+}
+
+.wikitext table td {
+	border: solid black 1px;
+}

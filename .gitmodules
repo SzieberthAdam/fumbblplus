@@ -1,0 +1,8 @@
+[submodule "sr"]
+	path = sr
+	url = https://github.com/FUMBBLPlus/sr.git
+	branch = master
+[submodule "css/pygments-css"]
+	path = css/pygments-css
+	url = https://github.com/zslucky/pygments-css.git
+	branch = master

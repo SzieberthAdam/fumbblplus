@@ -1,0 +1,29 @@
+# Site settings
+title: "FUMBBLPlus"
+short_title: "FUMBBLPlus"
+description: "Community driven supplemental site of FUMBBL.COM"
+baseurl:
+
+# Globals
+timezone: Europe/Stockholm
+safe: true
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: rouge
+
+menu:
+  - title: "FUMBBL"
+    url: "//fumbbl.com"
+    sublinks:
+      -
+        - "FUMBBL"
+        - "//fumbbl.com"
+  - title: "PLUS"
+    url: ""
+  - title: "SR"
+    url: "/sr"
+
+include:
+    - fumbbl

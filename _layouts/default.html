@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head_common.html %}
+  {% include head_css.html %}
+</head>
+<body>
+<div class="contentwrapper">
+
+{% include header.html %}
+
+  <div class="pagecontent">
+
+    {{ content }}
+
+  </div>
+
+<div class="push"></div>
+</div>
+{% include footer.html %}
+{% include ga.html %}
+</body>
+</html>

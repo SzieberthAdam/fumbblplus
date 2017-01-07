@@ -1,0 +1,629 @@
+html,
+body {
+  height: 100%;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: #990000;
+}
+a img {
+  border: 0;
+}
+table {
+  font-size: 10pt;
+}
+body {
+  font-family: Arial, Sans-serif;
+  margin: 0px;
+  background: #224522 url(/themes/pastel/images/background.jpg) repeat-y center top;
+  text-align: center;
+  font-size: 10pt;
+}
+.tabbox td {
+  font-size: 10pt;
+}
+.forumpost td,
+.forumrow td {
+  font-size: 10pt;
+}
+.contentwrapper {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background: #e6ddc7;
+  text-align: left;
+  min-height: 100%;
+  margin-bottom: -266px;
+  height: auto !important;
+  height: 100%;
+  width: 1000px;
+}
+.topheader {
+  background: #670000 url(/themes/pastel/images/headerbg.png) no-repeat left top;
+  height: 70px;
+}
+.searchbox {
+  position: absolute;
+  left: 600px;
+  top: 15px;
+  width: 300px;
+  height: 44px;
+  background: url(/themes/pastel/images/topsearchleft.png) no-repeat 0px 0px;
+}
+.searchbox #s {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 134px;
+  outline: none;
+  border: 0;
+  background: transparent;
+}
+.searchbox #submit {
+  position: absolute;
+  top: 0;
+  left: 134px;
+  background: url(/themes/pastel/images/topsearchright.png) no-repeat 0px 0px;
+  border: 0;
+  width: 39px;
+  height: 44px;
+  outline: none;
+  cursor: pointer;
+}
+.donatebox {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 176px;
+  height: 54px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+.donatebox #submit {
+  width: 100%;
+  height: 100%;
+}
+.topnav {
+  position: relative;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  background: #990000 url(/themes/pastel/images/topnavbg.png) no-repeat left bottom;
+  height: 17px;
+  font-weight: bold;
+}
+.topnav ul {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  list-style: none;
+  height: 17px;
+  overflow: hidden;
+}
+.topnav ul li {
+  margin: 0 30px 0 0;
+  padding: 0;
+  float: left;
+  text-align: center;
+}
+.topnav ul li div a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+  height: 20px;
+  line-height: 18px;
+  float: left;
+}
+.topnav ul li.selected {
+  background: url(/themes/pastel/images/topnavselbg.png) no-repeat left top;
+}
+.topnav ul li.selected div {
+  margin-left: 5px;
+  margin-right: 0;
+  padding-right: 5px;
+  background: url(/themes/pastel/images/topnavselbg.png) no-repeat right top;
+  float: left;
+}
+.topnav ul li.selected div a {
+  margin-left: -5px;
+  padding-left: 5px;
+  margin-right: -5px;
+  padding-right: 5px;
+  color: #990000;
+}
+.topnav a:hover {
+  color: black;
+}
+.accountbox {
+  position: absolute;
+  right: 10px;
+  top: 70px;
+  font-size: 10pt;
+  background: #990000;
+}
+.messagebox {
+  position: absolute;
+  right: 80px;
+  top: 70px;
+  font-size: 10pt;
+  padding-left: 19px;
+  background: #990000 url(/themes/pastel/images/message.png) no-repeat left 3px;
+}
+.messagebox a,
+.accountbox a {
+  text-decoration: none;
+  color: white;
+}
+.messagebox a:hover,
+.accountbox a:hover {
+  color: black;
+}
+.onlinecount {
+  padding-right: 5px;
+  float: right;
+}
+.topnav2 {
+  background: white;
+  height: 25px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.topnav2 a {
+  display: inline-block;
+  font-size: 10pt;
+  text-decoration: none;
+  color: black;
+}
+.topnav2 a.nav {
+  margin-left: 20px;
+}
+.topnav2 .dyk a {
+  font-weight: bold;
+}
+.topnav2 a:hover {
+  text-decoration: none;
+  color: #990000;
+}
+.topnav2 span#header {
+  font-weight: bold;
+  padding-left: 20px;
+}
+.topnav2 span#spacer {
+  padding-left: 20px;
+}
+.pagecontent {
+  width: 960px;
+  margin: 0 20px 0 20px;
+  overflow: auto;
+}
+.push,
+.themebottom {
+  height: 266px;
+}
+.themebottom {
+  position: relative;
+  clear: both;
+  background: #e6ddc7 url(/themes/pastel/images/bottom.png) no-repeat left top;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: 266px;
+}
+.adminmessage {
+  background: url(/themes/pastel/images/bannerbg.png) no-repeat left top;
+  font-size: 10pt;
+  width: 770px;
+  height: 162px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -5px;
+}
+.adminmessage .content {
+  padding-right: 10px;
+}
+.adminmessage h1 {
+  color: #990000;
+  padding-top: 10px;
+}
+.adminmessage a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.adminmessage .img {
+  float: left;
+  width: 225px;
+  height: 162px;
+  background: transparent url(/themes/pastel/images/bigdice.png) no-repeat left top;
+}
+.signin {
+  position: relative;
+  width: 170px;
+  height: 162px;
+  background: url(/themes/pastel/images/signinbg.png) no-repeat;
+  text-align: center;
+  color: white;
+}
+.signin a {
+  margin-top: 70px;
+  color: white;
+  text-decoration: none;
+}
+.signin a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.signin .loginbutton {
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: 25px;
+  width: 120px;
+  height: 32px;
+  background: url(/themes/pastel/images/loginbutton.png);
+  border: 0px;
+  cursor: pointer;
+}
+.signin .signupbutton {
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: 25px;
+  width: 120px;
+  height: 32px;
+  background: url(/themes/pastel/images/signupbutton.png);
+  border: 0px;
+  cursor: pointer;
+}
+.newsheader {
+  margin-top: 10px;
+  text-transform: uppercase;
+  background: #224422 url(/themes/pastel/images/greenheaderbg.png) no-repeat left top;
+  width: 644px;
+  height: 25px;
+  color: white;
+  font-weight: normal;
+  font-size: 20px;
+  padding: 0;
+  padding-top: 5px;
+}
+.newsheader div {
+  margin-left: 10px;
+}
+.newscontent {
+  background: white;
+  width: 644px;
+}
+.newsfooter {
+  background: #ffffff url(/themes/pastel/images/newsfooterbg.png) no-repeat left bottom;
+  text-align: right;
+  color: #990000;
+  font-size: 8pt;
+  width: 644px;
+  padding-top: 20px;
+}
+.newsfooter a {
+  text-decoration: none;
+  color: #990000;
+  margin-right: 10px;
+}
+.newscontent div.newsbox {
+  margin: 0 10px 0 10px;
+  display: block;
+  padding-top: 15px;
+}
+.newsitemheader {
+  display: block;
+  font-size: 12pt;
+  font-weight: bold;
+}
+.newsitemheader a {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #990000;
+  text-decoration: none;
+  margin-right: 70px;
+}
+.newsitemheader a:hover {
+  color: black;
+}
+.blogheader {
+  margin-top: 10px;
+  text-transform: uppercase;
+  background: #224422 url(/themes/pastel/images/greenheaderbg_narrow.png) no-repeat left top;
+  width: 286px;
+  height: 25px;
+  color: white;
+  font-weight: normal;
+  font-size: 20px;
+  padding: 0;
+  padding-top: 5px;
+}
+.blogheader div {
+  margin-left: 10px;
+}
+.blogcontent {
+  background: white;
+  width: 286px;
+}
+.blogitemheader {
+  display: block;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 3px 20px 0px 20px;
+}
+.blogitemheader a {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #990000;
+  text-decoration: none;
+}
+.blogitemheader a:hover {
+  color: black;
+}
+.blogitemcontent {
+  background: #e6ddc7 url(/themes/pastel/images/blogitemheader.png) no-repeat;
+  width: 266px;
+  overflow: hidden;
+}
+.blogbody {
+  padding: 0px 20px 3px 20px;
+}
+.blogitemfooter {
+  background: #e6ddc7 url(/themes/pastel/images/blogitemfooter.png) no-repeat left bottom;
+  padding-left: 60px;
+  font-size: 8pt;
+  height: 22px;
+}
+.blogitemfooter div {
+  padding-top: 10px;
+}
+.blogitemfooter a {
+  text-decoration: none;
+  color: #990000;
+  font-weight: bold;
+}
+.blogcontent div.blogbox {
+  margin: 0 10px 0 10px;
+  display: block;
+  padding-top: 15px;
+}
+.blogiteminfo {
+  background: #e6ddc7;
+  padding: 3px 5px 3px 5px;
+  font-size: 8pt;
+}
+.blogiteminfo div {
+  margin-left: 20px;
+}
+.blogiteminfo #comments {
+  padding-left: 15px;
+  margin-left: 5px;
+  display: inline-block;
+  background: url(/themes/pastel/images/commenticon.png) no-repeat 2px 5px;
+  font-size: 10pt;
+}
+.blogiteminfo .readmore {
+  float: right;
+}
+.blogiteminfo .readmore a {
+  color: #990000;
+  text-decoration: none;
+}
+.blogiteminfo .readmore a:hover {
+  color: black;
+}
+.blogfooter {
+  background: #ffffff url(/themes/pastel/images/blogfooterbg.png) no-repeat left bottom;
+  text-align: right;
+  color: #990000;
+  font-size: 8pt;
+  width: 286px;
+  padding-top: 20px;
+}
+.blogfooter a {
+  text-decoration: none;
+  color: #990000;
+  margin-right: 10px;
+}
+.newsitemcontent {
+  background: #e6ddc7 url(/themes/pastel/images/newsitemheadernews.png) no-repeat;
+  padding: 3px 20px 3px 20px;
+}
+.newsitemcontent#LiveFromThePitch {
+  background: #e6ddc7 url(/themes/pastel/images/newsitemheaderic.png) no-repeat;
+}
+.newsitemcontent#Tournaments {
+  background: #e6ddc7 url(/themes/pastel/images/newsitemheadertournament.png) no-repeat;
+}
+.newsitemcontent#Clients {
+  background: #e6ddc7 url(/themes/pastel/images/newsitemheaderffb.png) no-repeat;
+}
+.newsitemfooter {
+  background: #e6ddc7 url(/themes/pastel/images/newsitemfooter.png) no-repeat left bottom;
+  padding-left: 60px;
+  font-size: 8pt;
+  height: 22px;
+}
+.newsitemfooter div {
+  padding-top: 10px;
+}
+.newsitemfooter a {
+  text-decoration: none;
+  color: #990000;
+  font-weight: bold;
+}
+.newsiteminfo {
+  background: #e6ddc7;
+  padding: 3px 5px 3px 5px;
+  font-size: 8pt;
+}
+.newsiteminfo div {
+  margin-left: 20px;
+}
+.newsiteminfo #views {
+  font-size: 10pt;
+}
+.newsiteminfo #comments {
+  padding-left: 15px;
+  margin-left: 5px;
+  display: inline-block;
+  background: url(/themes/pastel/images/commenticon.png) no-repeat 2px 5px;
+  font-size: 10pt;
+}
+.newsiteminfo .readmore {
+  float: right;
+}
+.newsiteminfo .readmore a {
+  color: #990000;
+  text-decoration: none;
+}
+.newsiteminfo .readmore a:hover {
+  color: black;
+}
+.code {
+  font-family: monospace;
+  border-left: solid #a69d87 3px;
+  margin-left: 1em;
+}
+.forumtable {
+  padding-left: -20px;
+  padding-right: -20px;
+}
+.forumline,
+.forumline .forumpost {
+  background: #e6ddc7 url(/themes/pastel/images/forumpostbg.png) no-repeat left top;
+}
+.forumline .catRupt {
+  background: #d6cdb7;
+  font-weight: bold;
+  font-size: 14pt;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.forumline .catRupt a {
+  text-decoration: none;
+}
+.forumline .catRupt a:hover {
+  color: #990000;
+}
+.forumline .forumrow td {
+  border-bottom: solid 1px #d6cdb7;
+}
+.forumline .forumrow .desc {
+  font-size: 10pt;
+  font-style: oblique;
+}
+.forumline .nav {
+  font-size: 14pt;
+  text-decoration: underline;
+}
+.forumline .forumrow .nav:hover {
+  color: #990000;
+}
+.forumline .quote {
+  margin-left: 1em;
+  border-left: solid #a69d87 3px;
+}
+.forumpost td#poster {
+  width: 25%;
+}
+.forumline .topictitle {
+  font-size: 12pt;
+}
+.forumline .gensmall {
+  font-size: 9pt;
+}
+.forumtable .maintitle {
+  font-size: 1.5em;
+}
+.even {
+  background: #d6cdb7;
+}
+.odd {
+  background: #e6ddc7;
+}
+.recenttopics {
+  color: #333;
+  margin-top: 0px;
+  font-size: 10pt;
+  left: auto;
+  right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px;
+}
+.recenttopics strong {
+  padding-right: 1em;
+}
+.bookmarkplaceholder {
+  height: 15px;
+  background: #ccc;
+}
+.nav3bookmarks {
+  background: white;
+  padding-left: 20px;
+}
+.nav3bookmarks a {
+  margin-top: 5px;
+  display: inline-block;
+  font-size: 10pt;
+  text-decoration: none;
+  color: black;
+}
+.nav3bookmarks a.nav {
+  margin-left: 20px;
+}
+.nav3bookmarks span#header {
+  font-weight: bold;
+  padding-left: 20px;
+}
+.nav3bookmarks span#spacer {
+  padding-left: 20px;
+}
+.nav3bookmarks a:hover {
+  text-decoration: none;
+  color: #990000;
+}
+.leftbookmarks {
+  background: #e6ddc7;
+  position: absolute;
+  width: 150px;
+  left: 50%;
+  margin-left: -651px;
+  border-left: solid black 1px;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+}
+.leftbookmarks a {
+  text-decoration: none;
+  margin-left: 1em;
+}
+.leftbookmarks a:hover {
+  text-decoration: none;
+}
+div.header {
+  font-size: 150%;
+}
+table#playerresults td {
+  padding: 1px;
+}
+
+.bbcode_tooltip {
+  display: none;
+}
+
+.ui-tooltip {
+  position: absolute;
+  display: inline-block;
+  padding: 5px;
+}

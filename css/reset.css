@@ -1,0 +1,22 @@
+/**
+ * Single-direction margin declarations:
+ * csswizardry.com/2012/06/single-direction-margin-declarations
+ */
+h1, h2, h3, h4, h5, h6, hgroup,
+hr,
+ul, ol, dl,
+blockquote, p, address,
+table, fieldset,
+figure, pre {
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+
+button {
+  padding: 0px;
+}
+
+/* https://css-tricks.com/almanac/properties/b/box-sizing/ */
+*, *:before, *:after {
+  box-sizing: border-box;
+}

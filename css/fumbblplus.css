@@ -1,0 +1,495 @@
+/* Bookmarks:
+ * last-of-type: http://stackoverflow.com/a/7298062/2334951
+ */
+
+blockquote {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  background: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  min-height: 58px;
+}
+
+blockquote p {
+  overflow: hidden;
+}
+
+blockquote p:last-of-type {
+  margin-bottom: 0;
+}
+
+code {
+  border: 1px solid gray;
+  background: #d6cdb7;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-clip: padding-box;
+  padding-top: 0px;
+  padding-right: 5px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+}
+
+/* http://stackoverflow.com/a/6396423/2334951 */
+del {
+  text-decoration: none;
+  position: relative;
+}
+del:after {
+  content: ' ';
+  font-size: inherit;
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 40%;
+  bottom: 40%;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+div.cell_format + p {
+  border: 1px solid black;
+  display: inline-block;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background: #d6cdb7;
+}
+
+div.filters {
+  margin-bottom: 2.5em;
+}
+div.filters > h2{
+  margin-bottom: 1em;
+  font-size: 125%;
+  font-weight: bold;
+  text-align: center;1
+}
+/* https://css-tricks.com/snippets/css/remove-margins-first-element/ */
+div.filters > :last-child {
+  margin-bottom: 1em;
+}
+
+/* https://css-tricks.com/snippets/css/remove-margins-first-element/ */
+div.filters > div.settings:first-of-type {
+  border-top: 2px solid black;
+}
+
+/* https://css-tricks.com/snippets/css/remove-margins-first-element/ */
+div.filters > div.settings:last-of-type {
+  border-bottom: 2px solid black;
+}
+
+div.datatables_centeredinfo .dataTables_wrapper .dataTables_info {
+  float: none;
+  text-align: center;
+}
+
+div.datatables_centeredpaginate .dataTables_wrapper .dataTables_paginate {
+  float: none;
+  text-align: center;
+}
+
+/* http://stackoverflow.com/a/21320716/2334951 */
+div.hcentered {
+  display: table;
+  margin: 0 auto;
+}
+
+div.help_columns+ul > li {
+  list-style: none;
+  overflow: hidden;
+}
+
+div.help_columns+ul > li{
+  margin: 0;
+  padding: 0;
+  float: left;
+  text-align: left;
+  width:49%;
+}
+
+div.help_columns+ul > li:nth-child(even) {
+  float: right;
+}
+
+div.pagecontent {
+  margin: 0 20px 0px 20px;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+div.selection {
+  margin-bottom: 2.5em;
+}
+
+div.settings {
+  margin-bottom: 1.25em;
+}
+div.settings > ul {
+  list-style: none;
+  margin-left: 0;
+  border-radius: 0.3125em;
+  padding-top: 0.3125em;
+}
+div.settings > ul:last-of-type {
+  margin-bottom: 0;
+}
+div.settings > ul > li{
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 0.3125em;
+  padding: 0;
+}
+div.settings > ul > li > h3{
+  font-size: 100%;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+div.settings > ul > li > ul{
+  list-style: none;
+  margin-left: 1em;
+  margin-bottom: 0;
+}
+div.settings > ul > li > ul > li{
+  display: inline;
+  list-style: none;
+  margin-left: 0;
+  margin-right: 1em;
+  padding: 0;
+  line-height: 1.5625em;
+}
+div.settings > ul > li > ul > li:last-of-type{
+  margin-right: 0;
+}
+div.settings > ul > li > ul > li > div{
+  display: inline-block;
+}
+
+h1 + div.staff_category_header {
+  margin-top: -21.333px;
+}
+
+div.staff_category_header+h2 {
+  padding-left: 5px;
+  border-bottom: solid black 2px;
+  margin-bottom: 0;
+}
+
+div.staff_category_header+h2+ul {
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+div.staff_category_header+h2+ul li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  text-align: left;
+  width:155px;
+}
+
+div.tabletitle {
+  padding-top: 1em;
+}
+
+div.tabletitle+p {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+div.tabletitle+p+table {
+  margin-bottom: 2em;
+}
+
+div.tip {
+  float: left;
+  width: 45px;
+  height: 48px;
+  font-size: 40px;
+  text-align: left;
+  margin-right: 5px;
+  line-height: normal; /* turning it of makes them inconsistent in blockquotes */
+}
+
+div.tip i::before {
+  margin-left: 0px;
+}
+
+div.tipparagraph {
+  float: left;
+  width: 45px;
+  height: 1px;
+  margin-right: 5px;
+  line-height: normal; /* turning it of makes them inconsistent in blockquotes */
+}
+
+h1, h2, h3, h4 {
+  padding-top: 1em;
+}
+
+h1 + h2, h2 + h3, h3 + h4 {
+  padding-top: 0;
+}
+
+h1:first-of-type {
+  padding-top: 0;
+}
+
+h1.centered {
+  text-align: center;
+}
+
+h1.centered+div.help {
+  text-align: center;
+  font-size: 80%;
+  margin-top: -24px;
+  margin-bottom: 24px;
+}
+
+h2#table_title {
+  font-size: 125%;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-size: 125%;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+h1+h3#version {
+  font-size: 80%;
+  font-style: italic;
+  margin-top: -28px;
+  margin-bottom: 24px;
+  padding-top: 0;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  vertical-align: sub;
+}
+
+label {
+  vertical-align: middle;
+}
+
+li {
+  padding-right: 0;
+}
+
+li > ul > li > ul{
+  margin-bottom: 0;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+pre code {
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  background: black;
+  color: #f8f8f2; /* == .highlight .n */
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+table a {
+  color: #000099;
+  text-decoration: none;
+}
+
+table a:hover {
+  color: #000099;
+  text-decoration: underline;
+}
+
+#fumbbl_tooltip {
+  font-family: arial, sans-serif;
+  display: none;
+  padding: 5px;
+  position: absolute;
+  border: solid black 1px;
+  background: yellow;
+  text-align: left;
+  max-width: 450px;
+}
+
+#fumbbl_tooltip blockquote{
+  margin-left: 2em;
+}
+
+#fumbbl_tooltip h1{
+  font-weight: bold;
+  text-align: left;
+  font-size: 100%;
+  margin-bottom: 0.5em;
+}
+
+#fumbbl_tooltip h2{
+  font-weight: normal;
+  font-style: italic;
+  text-align: left;
+  font-size: 100%;
+  margin-bottom: 0.25em;
+}
+#fumbbl_tooltip h3{
+  font-weight: normal;
+  text-align: left;
+  font-size: 100%;
+  margin: 0;
+  text-decoration: underline;
+}
+
+#fumbbl_tooltip table{
+  margin: 0 auto;
+}
+
+#fumbbl_tooltip p{
+  margin-bottom: 0.25em;
+  padding: 0px;
+}
+
+#fumbbl_tooltip ol{
+  margin-left: 2em;
+  padding: 0px;
+}
+
+#fumbbl_tooltip ul{
+  margin-left: 2em;
+  padding: 0px;
+}
+
+#fumbbl_tooltip li{
+  margin: 0;
+  padding: 0px;
+  list-style-position: outside;
+}
+
+#fumbbl_tooltip ol li{
+  list-style-type: decimal;
+}
+
+#fumbbl_tooltip ul li{
+  list-style-type: disc;
+}
+
+#show_button {
+  margin-bottom: 1.25em;
+  padding: 0.3125em;
+}
+
+.adminmessage {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.adminmessage h1 {
+  padding-top: 10px;
+}
+
+.adminmessage h1 a:hover {
+  text-decoration: underline;
+}
+
+.best{
+  display: inline;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.cls_active::before{
+  content: "Active";
+}
+.cls_nrone::before{
+  content: "Nr 1";
+}
+.cls_top3::before{
+  content: "Top 3";
+}
+.cls_top10::before{
+  content: "Top 10";
+}
+.cls_top25::before{
+  content: "Top 25";
+}
+.cls_top100::before{
+  content: "Top 100";
+}
+
+.grayitalic {
+  color: gray;
+  font-style: italic;
+}
+
+.icon-move-down:before {
+  margin-left: -0.15em;
+  margin-right: -0.1em;
+  margin-top: 0.1em;
+  margin-bottom: -0.1em;
+}
+
+.icon-move-up:before {
+  margin-left: -0.15em;
+  margin-right: -0.1em;
+  margin-top: -0.1em;
+  margin-bottom: 0.1em;
+}
+
+.nowrap {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.wasted {
+  display: inline;
+  text-decoration: line-through;
+}
+
+.wikitext h2 {
+  margin-bottom: 13.333px;
+}
+
+.wikitext h3 {
+  font-style: normal;
+}
+
+.wikitext h4 {
+  margin-bottom: 1em;
+}
+
+.wikitext li li {
+  list-style: disc;
+}
+
+.wikitext li li li {
+  list-style: circle;
+}
+
+.wikitext ul ul {
+  margin-bottom: 1em;
+}
+
+.wikitext ul ul ul{
+  margin: 0;
+}

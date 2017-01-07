@@ -1,0 +1,759 @@
+.wikitext ul {
+	list-style: disc;
+}
+
+.wikitext ul ul {
+	margin: 0;
+}
+
+.wikitext li {
+	margin-left: 3em;
+}
+
+.wikitext li li {
+	list-style: circle;
+}
+
+.wikitext h2 {
+	padding: 3px 0;
+}
+
+.recenttopics img {
+	vertical-align: baseline;
+}
+
+#buddylist {
+	width: 150px;
+	overflow: hidden;
+}
+
+#buddylist td {
+	padding: 2px 0px;
+}
+
+table.black {
+	border: solid black 2px;
+}
+
+table.black .header {
+	color: white;
+	background: black;
+	font-weight: bold;
+}
+
+li.contentblock {
+	list-style-type: none;
+	margin: 0px;
+}
+
+.pagecontent ul {
+	list-style: disc;
+}
+
+.pagecontent li {
+	margin-left: 3em;
+}
+
+.blocks {
+	list-style-type: none;
+	margin: 5px;
+	padding: 20px;
+	background: #999 url(/FUMBBL/Images/grayfade.png);
+}
+
+#blockpanel .blocks {
+	background: inherit;
+}
+
+.placeholder {
+	display: block;
+	width: 100%;
+	height: 2em;
+	background: #dfd;
+	margin: 2px;
+}
+
+.blocks li {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.layoutrows {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.layoutrows li {
+	margin: 0px;
+	padding: 0px;
+}
+
+#vdrag {
+	cursor: move;
+}
+
+/* Layout - 3 columns */
+
+.l3colmask {
+	position: relative;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	z-index: 0;
+}
+
+.l3colmid {
+	float: left;
+	width: 200%;
+	margin-left: -12em;
+	position: relative;
+	right: 100%;
+	z-index: 0;
+}
+
+.l3colleft {
+	float: left;
+	width: 100%;
+	margin-left: -50%;
+	position: relative;
+	left: 24em;
+	z-index: 0;
+}
+
+.l3colwrap {
+	float: left;
+	width: 50%;
+	position: relative;
+	right: 12em;
+	z-index: 0;
+}
+
+.l3col1 {
+	margin: 0 13em;
+	position: relative;
+	left: 200%;
+	overflow: hidden;
+	z-index: 0;
+}
+
+.l3col2 {
+	float: left;
+	float: right;
+	width: 10em;
+	position: relative;
+	right: 1em;
+	z-index: 0;
+}
+
+.l3col3 {
+	float: left;
+	float: right;
+	width: 10em;
+	margin-right: 3em;
+	position: relative;
+	left: 50%;
+	z-index: 0;
+}
+
+.l3footer {
+}
+
+/* Layout 2 columns, left menu */
+
+.l2lcolmask {
+	position:relative;		/* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;	/* This chops off any overhanging divs */
+}
+
+.l2lcolright {
+	float:left;
+	width:200%;
+	position:relative;
+	left:12em;
+}
+
+.l2lcol1wrap {
+	float:right;
+	width:50%;
+	position:relative;
+	right:12em;
+	padding-bottom:1em;
+}
+
+.l2lcol1 {
+	margin:0 1em 0 13em;
+	position:relative;
+	right:100%;
+	overflow:hidden;
+}
+
+.l2lcol2 {
+	float:left;
+	width:10em;
+	position:relative;
+	right:11em;
+}
+
+.l2lfooter {
+}
+
+/* Layout 2 columns, right menu */
+
+.l2rcolmask {
+	position:relative;		/* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;	/* This chops off any overhanging divs */
+}
+
+.l2rcolleft {
+	float:left;
+	width:200%;
+	margin-left: -12em;
+	position:relative;
+	right: 100%;
+}
+
+.l2rcol1wrap {
+	float:left;
+	width:50%;
+	position:relative;
+	left:50%;
+	padding-bottom:1em;
+}
+
+.l2rcol1 {
+	margin:0 1em 0 13em;
+	overflow:hidden;
+}
+
+.l2rcol2 {
+	float:right;
+	width:10em;
+	position:relative;
+	left:11em;
+}
+
+.l2rfooter {
+}
+
+/* Layout 2 columns, percentage widths */
+
+.l2colmask {
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+
+.l2colleft {
+	float:left;
+	width:100%;
+	position:relative;
+	right:50%;
+}
+
+.l2col1 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	overflow:hidden;
+	width:46%;
+	left:52%;
+}
+
+.l2col2 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	overflow:hidden;
+	width:46%;
+	left:56%;
+}
+
+.l2footer {
+}
+
+/* Layout 1 column */
+
+.l1colmask {
+	position:relative;		/* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;	/* This chops off any overhanging divs */
+}
+
+.l1col1 {
+	margin:0 1em;
+}
+
+.l1colfooter {
+}
+
+/* Bug tracker */
+
+.bug {
+	left: auto;
+	right: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60em;
+}
+
+.bug .texteditor {
+	width: 50em;
+	height: 20em;
+}
+
+.bug .titleeditor {
+	width: 50em;
+}
+
+.bug .preview {
+	border: solid black 2px;
+	background: #ccc;
+	margin-top: 0.5em;
+	padding: 0.5em;
+}
+
+.bug .commentheader {
+	font-size: 0.8em;
+	font-style: oblique;
+}
+
+
+/* Playercards */
+
+.playercardwrapper {
+        font-family: arial, sans-serif;
+        font-size: 10pt;
+        margin: 5px;
+        width: 285px;
+}
+
+.playercardwrapper#withbio {
+}
+
+.playercard {
+        width: 285px;
+        height: 300px;
+        border: solid black 1px;
+}
+
+.playercard#withbio {
+        width: 777px;
+        height: 300px;
+}
+
+.playercard .biowrapper {
+        width: 285px;
+        height: 300px;
+        overflow: auto;
+        padding: 0px;
+        margin: 0px;
+}
+
+.playercard .biomargin {
+        border-left: solid black 1px;
+        width: 5px;
+}
+
+.playercard .bio {
+        width: 485px;
+        height: 100%;
+        overflow-y: auto;
+}
+
+.playercard .number {
+        width: 30px;
+        padding-right: 2px;
+        text-align: right;
+        background: black;
+        color: white;
+}
+
+.playercard .leftfiller {
+        width: 30px;
+        background: black;
+        color: white;
+}
+
+.playercard .name {
+        width: 225px;
+        font-size: 14pt;
+        text-align: center;
+        background: black;
+        color: white;
+}
+
+.playercard .position {
+        background: black;
+        color: white;
+        text-align: center;
+}
+
+.playercard .team {
+}
+
+.playercard .portrait {
+        width: 95px;
+        height: 147px;
+        padding: 3px;
+}
+
+.playercard .statline {
+        padding-top: 5px;
+        z-index: 1;
+}
+
+.playercard .injurywrapper {
+        width: 100%;
+        text-align: left;
+        background: white;
+        border: solid black 1px;
+}
+
+.playercard .injuryheader {
+        background: black;
+        color: white;
+        text-align: center;
+        padding-left: 2px;
+}
+
+.playercard .injurycontent {
+        padding-left: 2px;
+}
+
+.playercard .skillheader {
+        background: black;
+        color: white;
+        padding: 2px;
+}
+
+.playercard .skillcontent {
+        overflow-y: auto;
+        height: auto;
+        padding-left: 2px;
+        padding-top: 2px;
+}
+
+.playercard .statline .statbox {
+        width: 30px;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        text-decoration: none;
+        background: black;
+        border: solid black 1px;
+        z-index: 1;
+}
+
+.playercard .statline .statbox .statboxheader .info {
+        display: none;
+        z-index: 10;
+}
+
+.playercard .statline .statbox .statboxheader:hover {
+        z-index: 10;
+}
+
+.playercard .statline .statbox .statboxheader:hover .info {
+        display: none;
+        position: absolute;
+        background: yellow;
+        color: black;
+        width: 150px;
+        padding: 2px;
+        border: solid black 1px;
+        z-index: 10;
+        top: 2em;
+}
+
+.playercard .statline .statbox .statboxheader {
+        background: black;
+        color: white;
+        display: block;
+        position: relative;
+        text-decoration: none;
+        width: 100%;
+        z-index: 1;
+}
+
+.statline .statbox .statboxvalue {
+        background: white;
+        z-index: 1;
+        overflow: hidden;
+        width: 30px;
+        height: 15px;
+        margin: 0px;
+        padding: 0px;
+}
+
+.statline .statbox .statboxvalue#inc {
+        background: #cfc url(/FUMBBL/Images/bottomleftwhite.png);
+}
+
+.statline .statbox .statboxvalue#dec {
+        background: #fcc url(/FUMBBL/Images/toprightwhite.png);
+}
+
+.statline .statbox .statboxvalue#inctwo {
+        background: #cfc;
+}
+
+.statline .statbox .statboxvalue#dectwo {
+        background: #fcc;
+}
+
+
+#fumbbl_tooltip {
+	font-family: arial, sans-serif;
+	display: none;
+	padding: 5px;
+	position: absolute;
+	border: solid black 1px;
+	background: yellow;
+	text-align: center;
+	z-index: 1000;
+}
+
+#purple {
+	color: #c09;
+	font-weight: bold;
+}
+
+#blue {
+	color: #00f;
+	font-weight: bold;
+}
+
+#green {
+	color: #060;
+	font-weight: bold;
+}
+
+.messagewrapper {
+        position: fixed;
+        display: block;
+        top: 100px;
+        width: 400px;
+        left: 50%;
+        margin-left: -200px;
+        height: 100px;
+}
+
+.messagebackground {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+	z-index: 20002;
+
+	background: black;
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+
+	border-top: 2px solid yellow;
+	border-bottom: 2px solid yellow;
+}
+
+.message {
+        position: absolute;
+        display: block;
+        top: 0px;
+        width: 400px;
+        left: 50%;
+        margin-left: -200px;
+        height: 100px;
+        z-index: 20002;
+
+        color: white;
+        font-size: 14pt;
+        text-align: center;
+        overflow: hidden;
+}
+
+.messagecontent {
+        display: absolute;
+        width: 380px;
+        height: 80px;
+        margin-left: 10px;
+
+        padding-top: 10px;
+}
+
+.messageinfo {
+        position: absolute;
+        display: block;
+        bottom: 2px;
+        height: 12px;
+        width: 400px;
+        left: 50%;
+        margin-left: -200px;
+        z-index: 20002;
+        text-align: center;
+
+        color: white;
+        font-size: 10px;
+}
+
+.tabbox tr.tabs td {
+	padding: 0;
+}
+
+div.bbcode {
+	display: inline;
+}
+
+.bbcode_default {
+	background: white;
+}
+
+.bbcode_default th {
+	background: #363;
+	color: white;
+}
+
+.bbcode_vertical td {
+	border-right: 1px solid black;
+}
+
+.bbcode_vertical {
+	border: 2px solid black;
+	border-right: 1px solid black;
+}
+
+.bbocde_grid {
+    border: 0;
+}
+
+.bbcode_grid td, .bbcode_grid th {
+    border: 1px solid black;
+}
+
+.bbcode_hidden {
+	display: none;
+}
+
+.bbcode_pad5 {
+	padding: 5px !important;
+}
+
+.bbcode_pad10 {
+	padding: 10px !important;
+}
+
+.bbocde_margin5 {
+	margin: 5px !important;
+}
+
+.bbcode_automargin {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bbcode_blackborder {
+	border: solid black 1px;
+}
+
+.bbcode_border2 {
+	border-width: 2px;
+}
+
+.bbcode_right {
+	text-align: right !important;
+}
+
+.bbcode_center {
+	text-align: center !important;
+}
+
+.bbcode_floatleft {
+	float: left !important;
+}
+
+.bbcode_floatright {
+	float: right !important;
+}
+
+.bbcode_floatcontainer {
+	overflow: auto !important;
+	width: 100% !important;
+}
+
+.bbocde_floatcontainer:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+}
+
+.bbcode_clear {
+	clear: both !important;
+}
+
+div.bbcode_panel {
+	background: #f8f5e7;
+	background-image: url(/themes/pastel/images/greenheaderbgleft.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+div.bbcode_panelheader {
+	background-image: url(/themes/pastel/images/greenheaderbgright.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	height: 25px;
+	line-height: 25px;
+	font-size: 20px;
+	color: white;
+	padding-left: 10px;
+}
+
+.bbcode_inline {
+	display: inline !important;
+}
+
+.bbcode_inlineblock {
+	display: inline-block;
+}
+
+.playericon {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: baseline;
+}
+
+[tooltip]:before {
+	content: attr(tooltip);
+	position: absolute;
+	opacity: 0;
+
+	transition: all 0.15s ease;
+	padding: 10px;
+	color: #333;
+	border-radius: 10px;
+	box-shadow: 2px 2px 1px silver;
+}
+
+[tooltip]:hover:before {
+	opacity: 1;
+	background: #ffffca;
+	margin-top: -15px;
+	margin-left: 20px;
+}
+
+[tooltip]:not([tooltip-persistent]):before {
+	pointer-events: none;
+}

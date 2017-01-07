@@ -1,0 +1,35 @@
+body {
+    background: #224522 url("../fumbbl_resources/themes/pastel/images/background.jpg") repeat-y center top;
+}
+
+.adminmessage {
+  background: url("../fumbbl_resources/themes/pastel/images/bannerbg.png") no-repeat left top;
+}
+
+.adminmessage .img {
+    background: transparent url("../fumbbl_resources/themes/pastel/images/bigdice.png") no-repeat left top;
+}
+
+.themebottom {
+    background: #e6ddc7 url("../fumbbl_resources/themes/pastel/images/bottom.png") no-repeat left top;
+}
+
+.topheader {
+    background: #670000 url("../images/headerbg.png") no-repeat left top;
+    background-image: url("../images/headerbg.png")
+    height: 70px;
+}
+
+.topnav {
+    background: #990000 url("../fumbbl_resources/themes/pastel/images/topnavbg.png") no-repeat left bottom;
+    background-image: url("../fumbbl_resources/themes/pastel/images/topnavbg.png");
+}
+
+.topnav ul li.selected {
+    background: url("../fumbbl_resources/themes/pastel/images/topnavselbg.png") no-repeat left top;
+}
+
+
+.topnav ul li.selected div {
+    background: url("../fumbbl_resources/themes/pastel/images/topnavselbg.png") no-repeat right top;
+}
